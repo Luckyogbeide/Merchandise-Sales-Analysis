@@ -61,10 +61,18 @@ The following Power Bi features were incorporated
 - A KPI visual is used to measure MoM and MoM percentage on Sales, Orders and Quantities of product
 - Measures on Local Performance and International performance on Sales, Orders and Quantities of product
 - Measures of shipping and reviews of product
+
+Age Bracket                |  MoM sales                    | Reviews
+:--------------------------|-------------------------------|---------------------------------
+![](Data_Model)
+
+
+
 ## Visualization
 The report comprises of five(5) pages:
 - KPI overview of Quantity, Order and Sales
 - Shipping and Reviews
   
 You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMzlhYmRjMDEtYmIzMi00MTEwLWJlNzktZmUyYWYwOTc4NTZlIiwidCI6ImYzMzNmMDE4LWE3OTYtNGQ5Yy1iNmM4LThmY2RmYzAyNzEwYiJ9)
+
 
