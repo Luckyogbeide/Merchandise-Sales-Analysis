@@ -108,7 +108,14 @@ You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiM
 
 ### KPI Overview
 The page comprises of reports on Sales, Quantity and Orders
- Report on Quantity                  |  Report on Orders                     | Report on Sales
-:------------------------------------|---------------------------------------|----------------------------------------
-![](SalesAnalysisBasedOnQuantity.png)| ![](sales_analysis_based_on_order.png)|![](Sales_analysis_based_on_actual sales.png)
+
+ Report on Quantity                                     | 
+
+![](SalesAnalysisBasedOnQuantity.png) 
+
+Report on Orders
+![](sales_analysis_based_on_order.png)
+
+Report on Sales
+![](Sales_analysis_based_on_actual sales.png)
 
