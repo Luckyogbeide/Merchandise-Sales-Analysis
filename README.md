@@ -62,17 +62,53 @@ The following Power Bi features were incorporated
 - Measures on Local Performance and International performance on Sales, Orders and Quantities of product
 - Measures of shipping and reviews of product
 
-Age Bracket                |  MoM sales                    | Reviews
-:--------------------------|-------------------------------|---------------------------------
-![](Data_Model)
+### Data Model
+![](Data_Model.png) 
 
-
-
+### MoM Sales
+ ~~~ DAX
+MoM Sales = 
+VAR Sales = [_total sales]
+VAR PrevMonth = 
+    CALCULATE([_total sales],
+                DATEADD(Dim_calendar[Date],-1,MONTH)
+    )
+VAR Diff = Sales - PrevMonth
+VAR DiffPer = DIVIDE(Diff,Sales,0)
+RETURN
+    IF(DiffPer > 0, FORMAT(DiffPer, "#%") & "▲",
+        FORMAT(DiffPer, "#%") & "▼")
+~~~
+### Rating
+ ~~~ DAX
+Rating Fill = 
+VAR Rating = AVERAGE(Fact_Transactions[Rating%])
+VAR NoIcon = 5
+VAR NFillIcon = INT(Rating * NoIcon) // Full stars
+VAR FractionalPart = MOD(Rating * NoIcon, 1) // Fractional part of the rating
+VAR HasHalfStar = IF(FractionalPart > 0.49, 1, 0) // Check if there's a half star
+VAR NEmptyIcon = NoIcon - NFillIcon - HasHalfStar // Remaining empty stars
+VAR FillIcon = "★"
+VAR HalfIcon = "✬" // Half-filled star (replace with a suitable character if needed)
+VAR EmptyIcon = "☆"
+VAR Bars = 
+    REPT(FillIcon, NFillIcon) & 
+    REPT(HalfIcon, HasHalfStar) & 
+    REPT(EmptyIcon, NEmptyIcon)
+RETURN
+Bars
+~~~
+    
 ## Visualization
-The report comprises of five(5) pages:
-- KPI overview of Quantity, Order and Sales
+The report comprises of 2 major pages:
+- KPI overview
 - Shipping and Reviews
   
 You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMzlhYmRjMDEtYmIzMi00MTEwLWJlNzktZmUyYWYwOTc4NTZlIiwidCI6ImYzMzNmMDE4LWE3OTYtNGQ5Yy1iNmM4LThmY2RmYzAyNzEwYiJ9)
 
+### KPI Overview
+The page comprises of reports on Sales, Quantity and Orders
+ Report on Quantity                  |  Report on Orders                     | Report on Sales
+:------------------------------------|---------------------------------------|----------------------------------------
+![](SalesAnalysisBasedOnQuantity.png)| ![](sales_analysis_based_on_order.png)|![](Sales_analysis_based_on_actual sales.png)
 
