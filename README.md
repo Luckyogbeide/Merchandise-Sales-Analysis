@@ -51,4 +51,20 @@ The datasets were sourced from an `Excel file`, and several key data transformat
 
 The transformation process began with data cleaning to enhance data quality. This involved removing null values and eliminating empty spaces within data rows, ensuring consistency and completeness across the dataset. By addressing these inconsistencies, the data was optimized for analysis, reducing the risk of errors or inaccurate insights.
 
+## Skills/concepts demonstrated:
+The following Power Bi features were incorporated
+-  Bookmarking and Filtering
+-  DAX and Quick measures
+-  Page Navigation
+## The Logic
+- Creating Age bracket into 18-24 (Gen Z), 25-29 (early career professional or millennials), 30-35 (matured buyers)
+- A KPI visual is used to measure MoM and MoM percentage on Sales, Orders and Quantities of product
+- Measures on Local Performance and International performance on Sales, Orders and Quantities of product
+- Measures of shipping and reviews of product
+## Visualization
+The report comprises of five(5) pages:
+- KPI overview of Quantity, Order and Sales
+- Shipping and Reviews
+  
+You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMzlhYmRjMDEtYmIzMi00MTEwLWJlNzktZmUyYWYwOTc4NTZlIiwidCI6ImYzMzNmMDE4LWE3OTYtNGQ5Yy1iNmM4LThmY2RmYzAyNzEwYiJ9)
 
