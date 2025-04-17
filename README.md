@@ -117,7 +117,35 @@ Report on Orders
 ![](sales_analysis_based_on_order.png)
 
 Report on Sales
+
+This report shows the local and international sales, the different between the sales, the regional sales and different product category sales 
 ![](Sales_analysis_based_on_actual_sales.png)
+### Findings
+- Key Matric
+    - Total Sales of $73,033
+    - MoM Growth: 15% ↑ — a positive growth trend.
+- Sales Monthly Trend (Nov 2023 – Nov 2024)
+    - Sales Types: Local vs International
+    - The trend is relatively stable with slight fluctuations. There's a decline in November 2024
+
+🏠 Local Performance
+- Sales: $39,649 (54.29% of total)
+- MoM Growth: 18% ↑ — higher than international, showing strong domestic demand.
+- By Product Category:
+    - Clothing dominates with ~25K
+    - Ornaments: ~6K
+    - Other: ~3K
+- By Age Group:
+    - 30–45 age group has the highest purchases (~15K)
+    - Followed by 18–29 and 45–60
+  
+🌍 International Performance
+- Sales: $33,384 (45.71% of total)
+- MoM Growth: 10% ↑ — still positive but behind local.
+- By Product Category:
+    - Clothing again leads (~22.5K)
+    - Ornaments (~7.7K) are more popular internationally compared to local.
+   
 
 Report on Shipping
 ![](Shipping_and_Review_on_Shipping.png)
