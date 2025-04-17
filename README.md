@@ -145,6 +145,40 @@ This report shows the local and international sales, the different between the s
 - By Product Category:
     - Clothing again leads (~22.5K)
     - Ornaments (~7.7K) are more popular internationally compared to local.
+- By Age Group:
+    - 30–45 is again dominant (~13.5K)
+    - More balanced spread across age groups compared to local.
+      
+⚖️ Local vs International Comparison
+- Local outperformed International by:
+    - 6,265 in sales
+    - 15.8% sales difference
+- Local had stronger sales in clothing, but international led in ornaments and had stronger balance across categories.
+
+🌎 Region Performance
+- Top Performing Regions:
+  - New York ($4,601), Las Vegas, and Miami with strong MoM growth (~40%+)
+- Poor Performing Regions:
+  - Dallas, Chicago, Sacramento saw sharp declines (up to -80%)
+- There's a clear variance in regional performance, suggesting a need for localized marketing or inventory adjustments.
+
+🔍 Insights & Recommendations
+
+✅ What’s Going Well:
+- Overall Sales Growth: Positive trend (15% MoM)
+- Local Sales: Outperforming international both in volume and growth
+- Clothing Category: Driving the bulk of sales across all regions and age groups
+- Age Group 30–45: A key target segment — high conversion in both markets
+
+⚠️ What Needs Attention:
+- Drop in Nov 2024: Analyze potential causes 
+- Underperforming Regions: Focus on Dallas, Chicago, Sacramento — consider targeted promotions
+- Product Category Gap: “Other” categories show weak performance — reevaluate offerings or visibility
+
+💡 Opportunities:
+- Boost International Growth: Local campaigns seem effective — apply similar tactics abroad
+- Age Segmentation: 18–29 and 45–60 groups show promise, especially internationally
+- Ornaments Category: Perform better internationally — promote locally too
    
 
 Report on Shipping
