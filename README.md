@@ -107,9 +107,9 @@ The report comprises of 2 major pages:
 You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMzlhYmRjMDEtYmIzMi00MTEwLWJlNzktZmUyYWYwOTc4NTZlIiwidCI6ImYzMzNmMDE4LWE3OTYtNGQ5Yy1iNmM4LThmY2RmYzAyNzEwYiJ9)
 
 ### KPI Overview
-The page comprises of reports on Sales, Quantity and Orders
+The page comprises of reports on Quantity, orders and Sales
 
- Report on Quantity
+ ### Report on Quantity
  
  This report shows the local and international quantity of product sold, the different between the quantity sold, the regional Quantity sold and different product category of quantity sold. 
 
@@ -181,7 +181,7 @@ The page comprises of reports on Sales, Quantity and Orders
 - 🧓 Engage older and younger age groups more with targeted promotions.
 - 📍 Investigate underperforming regions for root causes — stockouts? Ads not reaching audience?
 
-Report on Orders
+### Report on Orders
 
  This report shows the local and international quantity of product ordered, the different between the quantity ordered, the regional Quantity sold and different product category of quantity ordered
 ![](sales_analysis_based_on_order.png)
@@ -257,12 +257,7 @@ Cities like Sydney and Chicago show major drops. Analyze product availability, d
 - Plan for Nov 2024 Dip
 As this trend is visible across all metrics, pre-empt with promotions or clearance sales to stimulate demand.
 
-
-
-
-
-
-Report on Sales
+### Report on Sales
 
 This report shows the local and international sales, the different between the sales, the regional sales and different product category sales 
 ![](Sales_analysis_based_on_actual_sales.png)
