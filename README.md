@@ -117,5 +117,5 @@ Report on Orders
 ![](sales_analysis_based_on_order.png)
 
 Report on Sales
-![](Sales_analysis_based_on_actual sales.png)
+![](Sales_analysis_based_on_actual_sales.png)
 
