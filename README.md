@@ -119,3 +119,10 @@ Report on Orders
 Report on Sales
 ![](Sales_analysis_based_on_actual_sales.png)
 
+Report on Shipping
+![](Shipping_and_Review_on_Shipping.png)
+
+Report on Rating
+![](Shipping_and_Review_on_Rating.png)
+
+
