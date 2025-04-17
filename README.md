@@ -109,9 +109,76 @@ You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiM
 ### KPI Overview
 The page comprises of reports on Sales, Quantity and Orders
 
- Report on Quantity                                     | 
+ Report on Quantity
+ 
+ This report shows the local and international quantity of product sold, the different between the quantity sold, the regional Quantity sold and different product category quantity sold. 
 
 ![](SalesAnalysisBasedOnQuantity.png) 
+
+🧾 Summary: Sales by Quantity
+- Total Quantity Sold: 1,080 units
+- MoM (Month-over-Month) Growth: 16% ↑ — positive sign of increasing volume.
+
+📈 Monthly Trend (Nov 2023 – Nov 2024)
+- Shows a steady trend across months with noticeable dips in November 2024, similar to the sales value chart.
+- Local sales consistently higher in quantity than international throughout the year.
+
+🏠 Local Performance
+- Local Quantity Sold: 751 units (69.54%)
+- MoM Growth: 20% ↑ — outpacing international growth again.
+- By Product Category:
+  - Clothing: ~375 units — dominant category
+  - Ornaments: ~231
+  - Other: ~145
+- By Age Group:
+  - 25–30 and 30–45 are the top consumer groups (~260 & ~200 units respectively)
+  - 18–24 also performs well (~221 units)
+
+🌍 International Performance
+- Quantity Sold: 329 units (30.46%)
+- MoM Growth: 8% ↑
+- By Product Category:
+  - Clothing: 168 unit
+  - Ornaments: 101
+  - Other: 60
+- By Age Group:
+  - Top groups: 30–45 and 25–30
+  - Slightly more balanced distribution than local sales
+
+🔄 Local vs International
+- Local sold 422 more units than International → 56.19% difference
+- Clothing has the widest performance gap (245 local vs 168 int)
+- Age groups follow similar patterns, but local is stronger across all segments
+
+🌎 Region Performance
+- Top Quantity Performers:
+  - New York, Las Vegas, Detroit, San Francisco
+  - All saw positive MoM growth (30–45%+)
+- Bottom Performers:
+  - Sacramento, Chicago, Sydney
+  - Saw negative MoM growth, with Sydney having a sharp -90%
+
+📊 Key Insights & Takeaways
+
+✅ Strengths:
+- Positive overall growth in quantity sold (16% MoM)
+- Local market is strong — both in value and volume
+- Clothing continues to be the best-performing category
+- Age 25–45 drives the majority of purchases, a reliable core segment
+- Several key cities (NY, Vegas, Detroit) are growing fast
+
+⚠️ Challenges:
+- International sales lag in both value and volume
+- Sydney and Sacramento need attention — sharp drops could hint at delivery, inventory, or demand issues
+- November dip appears in both visuals — could be seasonal or operational
+
+💡 Recommendations:
+
+- 🎯 Double down on local campaigns — they’re working! Expand into similar domestic regions.
+- 🌐 International strategy revamp — explore new markets or optimize shipping/logistics.
+- 👕 Expand clothing line — it’s the top seller; consider bundling or discounts to drive even more volume.
+- 🧓 Engage older and younger age groups more with targeted promotions.
+- 📍 Investigate underperforming regions for root causes — stockouts? Ads not reaching audience?
 
 Report on Orders
 ![](sales_analysis_based_on_order.png)
