@@ -111,9 +111,10 @@ The page comprises of reports on Sales, Quantity and Orders
 
  Report on Quantity
  
- This report shows the local and international quantity of product sold, the different between the quantity sold, the regional Quantity sold and different product category quantity sold. 
+ This report shows the local and international quantity of product sold, the different between the quantity sold, the regional Quantity sold and different product category of quantity sold. 
 
 ![](SalesAnalysisBasedOnQuantity.png) 
+### Findings
 
 🧾 Summary: Sales by Quantity
 - Total Quantity Sold: 1,080 units
@@ -181,7 +182,85 @@ The page comprises of reports on Sales, Quantity and Orders
 - 📍 Investigate underperforming regions for root causes — stockouts? Ads not reaching audience?
 
 Report on Orders
+
+ This report shows the local and international quantity of product ordered, the different between the quantity ordered, the regional Quantity sold and different product category of quantity ordered
 ![](sales_analysis_based_on_order.png)
+### Findings
+
+🧾 Summary: Sales by Orders
+- Total Orders: 625
+- MoM Growth: 16% ↑ — healthy order growth aligns with trends in both sales value and quantity.
+
+📈 Monthly Trend: Nov 2023 – Nov 2024
+- The order trend shows gradual growth with small fluctuations, followed by a noticeable dip in November 2024 (just like in Sales & Quantity).
+- Local orders consistently outperform international across all months.
+
+🏠 Local Performance
+- Local Orders: 442 (70.72%)
+- MoM Growth: 19% ↑
+- By Product Category:
+  - Clothing dominates again: 208 orders
+  - Ornaments: 139
+  - Other: 95
+- By Age Group:
+  - 25–30 age group leads (~176 orders)
+  - 30–45: 160 orders
+  - 18–24: 106 orders
+
+🌍 International Performance
+- Orders: 183 (29.28%)
+- MoM Growth: 8% ↑
+- By Product Category:
+  - Clothing: 103 orders
+  - Ornaments: 48
+  - Other: 32
+- By Age Group:
+  - 30–45 and 25–30 continue to lead
+  - 18–24 lags slightly behind
+
+🔄 Local vs International
+- Local had 259 more orders than international — a 58.60% difference
+- Every product category and age group shows stronger order counts in the local market
+- Clothing again shows the widest margin
+
+🌎 Region Performance
+- Top Cities by Orders:
+  - New York (48), Las Vegas (41), Detroit (38), Boston (36)
+  - All top performers show positive MoM growth, suggesting regional campaigns may be working
+- Cities with Order Declines:
+  - Sydney (-114%), Chicago, Dallas, Miami — sharp MoM drops that need investigation
+- There’s a clear split in order performance between high-growth regions and those in decline.
+
+📊 Insights & Takeaways
+
+✅ Positives:
+- Consistent growth across all KPIs (Sales, Quantity, Orders)
+- Clothing remains the most popular product by a large margin
+- Local performance dominates with nearly 3x the orders vs international
+- 25–45 age group is the most engaged demographic across all metrics
+- Several US cities are thriving (NYC, Vegas, Detroit)
+
+⚠️ Challenges:
+- International orders are low and only growing modestly
+- Decline in November 2024 across all KPIs (Sales, Quantity, Orders) — indicates potential issue or seasonal trend
+- Underperforming regions need immediate attention — possibly revisit marketing, logistics, or customer service
+
+💡 Strategic Recommendations
+- Target International Expansion.
+Local orders are very strong, but international is under-leveraged. Tailored regional campaigns, currency localization, and shipping incentives could help.
+- Promote Mid-tier Age Groups.
+25–45 is your golden demographic. Double down with loyalty programs or targeted email campaigns.
+- Optimize Product Mix
+Clothing leads. Consider bundling with ornaments or pushing seasonal offers to lift "Other" category performance.
+- Investigate Regional Declines.
+Cities like Sydney and Chicago show major drops. Analyze product availability, delivery delays, or competition in those regions.
+- Plan for Nov 2024 Dip
+As this trend is visible across all metrics, pre-empt with promotions or clearance sales to stimulate demand.
+
+
+
+
+
 
 Report on Sales
 
