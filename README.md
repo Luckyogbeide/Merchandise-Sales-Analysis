@@ -111,8 +111,7 @@ You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiM
 The page comprises of reports on Quantity, orders and Sales
 
  ### Report on Quantity
- 
- This report shows the local and international quantity of product sold, the different between the quantity sold, the regional Quantity sold and different product category of quantity sold. 
+This report shows the local and international quantity of product sold, the different between the quantity sold, the regional Quantity sold and different product category of quantity sold. 
 
 ![](SalesAnalysisBasedOnQuantity.png) 
 ### Findings
@@ -183,8 +182,7 @@ The page comprises of reports on Quantity, orders and Sales
 - 📍 Investigate underperforming regions for root causes — stockouts? Ads not reaching audience?
 
 ### Report on Orders
-
- This report shows the local and international quantity of product ordered, the different between the quantity ordered, the regional Quantity sold and different product category of quantity ordered
+This report shows the local and international quantity of product ordered, the different between the quantity ordered, the regional Quantity sold and different product category of quantity ordered
 ![](sales_analysis_based_on_order.png)
 ### Findings
 
@@ -259,7 +257,6 @@ Cities like Sydney and Chicago show major drops. Analyze product availability, d
 As this trend is visible across all metrics, pre-empt with promotions or clearance sales to stimulate demand.
 
 ### Report on Sales
-
 This report shows the local and international sales, the different between the sales, the regional sales and different product category sales 
 ![](Sales_analysis_based_on_actual_sales.png)
 ### Findings
@@ -323,10 +320,93 @@ This report shows the local and international sales, the different between the s
 - Ornaments Category: Perform better internationally — promote locally too
    
 
-Report on Shipping
+### Report on Shipping
+This report shows the shipping pattern of different products, product category across different locations
 ![](Shipping_and_Review_on_Shipping.png)
+### Findings
+Shipping Overview
+Total Shipping Charges: 108K
+- Distribution by Product Category:
+  - Clothing: 49.71%
+  - Ornaments: 31.35%
+  - Other: 18.93%
+    
+Clothing leads with almost half of all shipping charges, indicating it might be the most frequently shipped or the heaviest item group.
 
-Report on Rating
+Shipping Linechart (by Product Category)
+- Displays a month-wise trend from Nov-23 to Nov-24.
+  - Clothing consistently shows higher shipping volume, peaking around May-24, followed by a slight decline.
+  - Ornaments and Other remain stable and lower in volume.
+    
+This suggests seasonal demand patterns for clothing.
+
+Shipping by Order Location
+- Top Shipping Locations:
+  - Sydney, Mumbai, New Delhi, Paris, Manchester.
+
+Sydney dominates the shipping volume, possibly due to a high customer base or centralized dispatch for the region.
+
+Shipping by Product ID
+- Top Products by Shipping Volume:
+  - BT-1545, BT-1543, BT-1542
+
+These items are frequently ordered and shipped, possibly high in demand.
+
+✅ Key Insights
+- Clothing is the most shipped product category, both in volume and cost.
+- Sydney is a shipping hotspot.
+- BT-1545 is a high-shipping product—possibly a best-seller.
+
+### Report on Rating
+This report shows rating of different products, product categories across different regions
 ![](Shipping_and_Review_on_Rating.png)
+### Findings
+🔍 Overall Ratings Overview
+- Average Rating: 3.50 Stars
+- A balanced score, indicating a moderate level of customer satisfaction.
+- There is clear room for improvement to push this closer to 4+.
 
+📈 Rating Trend by Product Category
+- Line Chart (Nov-23 to Nov-24):
+- Clothing ratings improved significantly over time, ending on a strong note.
+- Ornaments remained fairly stable with minor fluctuations.
+- Other category had volatile ratings with some dips mid-year.
+
+📌 Insight: Clothing’s upward trend suggests recent enhancements in product quality or service for that category.
+
+🌍 Top Locations by Shipping Volume
+- High Volume Cities:
+  - Sydney, Mumbai, New Delhi, and Paris top the list.
+
+These locations are consistent across both shipping and ratings analysis, reinforcing their importance as key customer bases.
+
+📦 Product Performance (by Product ID)
+- BT-1545, BT-1543, BT-1542 lead in volume.
+
+These high-volume products are critical; their rating feedback should be prioritized for optimization.
+
+⭐ Rating Distribution
+- % Count of Orders by Rating:
+  - Good: ~40%
+- Excellent: ~30%
+- Fair: ~15%
+- Poor: ~15%
+
+📌 Majority feedback is positive, but the 30%+ fair/poor ratings highlight experience inconsistencies.
+
+💬 Review Buckets Analysis
+- Most Frequent Review Types:
+  - Other – Highest count (generic feedback or uncategorized)
+  - High Quality
+  - Good Value for Money
+  - Good Design
+
+- Negative sentiments include:
+  - Poor Delivery, Low Quality, Underwhelming, and Poor Value for Money – though less frequent, they are critical pain points.
+
+✅ Actionable Insights
+- Target improvement in Clothing to sustain its rising ratings.
+- Address "Poor Delivery" and "Low Quality" buckets to reduce negative sentiment.
+- Investigate fair-rated products to identify specific service gaps.
+- Leverage insights from top regions and products (Sydney, BT-1545, etc.) for tailored campaigns.
 
